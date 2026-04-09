@@ -146,37 +146,6 @@ This infrastructure is designed to stay within AWS Free Tier limits:
 5. **Use t3.micro only** (default) - do NOT change to larger instances
 6. **Destroy after use** → `terraform destroy`
 
-## What This Demonstrates to Recruiters
-
-### Technical Skills Validated
-
-```
-Infrastructure as Code     ████████████████████  Expert
-AWS Cloud Services         ████████████████████  Proficient
-VPC Networking             ████████████████████  Expert
-Security Groups/Firewalls ████████████████████  Expert
-IAM Roles & Policies       ████████████████░░░░  Intermediate
-Terraform CI/CD           ████████████████████  Expert
-Cost Optimization         ████████████████░░░░  Intermediate
-```
-
-### Key Concepts Demonstrated
-
-1. **Multi-Tier Architecture**: Web (public) → App (private) → Database layers
-2. **Defense in Depth**: Multiple security groups with least-privilege rules
-3. **High Availability**: Multi-AZ subnet design
-4. **Infrastructure as Code**: Version-controlled, reproducible infrastructure
-5. **GitOps**: Automated workflows via GitHub Actions
-6. **Cloud Cost Awareness**: Free tier compatible design
-
-### Common Interview Topics
-
-- "How would you secure a VPC?"
-- "Explain the difference between public and private subnets"
-- "How does a NAT gateway work?"
-- "Design a secure 3-tier architecture"
-- "How do you manage secrets in Terraform?"
-
 ## Project Structure
 
 ```
